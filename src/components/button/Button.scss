@@ -1,0 +1,29 @@
+.Button {
+  button {
+    display: block;
+    background: transparent;
+    border: none;
+    font-size: 22px;
+    color: #fff;
+    height: 35px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    outline: none;
+    .line {
+      width: 100%;
+      height: 3px;
+      background-color: #f3ca3e;
+      margin-top: 5px;
+      overflow: hidden;
+    }
+    .text {
+      height: 23px;
+      overflow: hidden;
+      span {
+        position: relative;
+        height: 10px;
+      }
+    }
+  }
+}

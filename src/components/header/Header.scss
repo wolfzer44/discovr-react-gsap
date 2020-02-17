@@ -1,0 +1,30 @@
+.Header {
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-top: 75px;
+  justify-content: space-between;
+  align-items: center;
+  .logo {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #fff;
+  }
+
+  .nav {
+    ul {
+      display: flex;
+      li {
+        margin-left: 95px;
+        list-style: none;
+      }
+    }
+  }
+
+  a {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+  }
+}
